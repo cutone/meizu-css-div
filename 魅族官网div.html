@@ -3,232 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>魅族官网</title>
-    <style>
-    body{
-        font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
-        margin: 0;
-        padding: 0;
-    }
-    header{
-        background-image: url(images/header.jpg);
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 761px;
-        margin: -8px 0 0 -8px;
-    }
-    .meizu-header{
-        font-size: 14px;
-        color: #fff;
-    }
-    .meizu-header-logo{
-        float: left;
-        margin: 28px 0 0 18px;
-    }
-    .meizu-header-wrap{
-        width: 1040px;
-        height: 52px;
-        margin: 0 133.5px;
-        padding: 0px;
-    }
-    .meizu-header-link{
-        display: inline;
-        float: right;
-        line-height: 52px;
-    }
-    .meizu-header-link a{
-        text-align: right;
-        padding: 32px 22px 30px 22px;
-    }
-    .meizu-header-link a:hover,
-    .meizu-header-log a:hover{
-        color: #30edb8;
-    }
-    .meizu-header-link li {
-        display: inline;
-    }
-    .meizu-header ul{
-        list-style: none;
-    }
-    .meizu-header-log{
-        display: inline;
-        float: right;
-        line-height: 52px;
-        font-size: 12px;
-        padding: 14px 0 0 30px;
-    }
-    .meizu-header-link a,
-    .meizu-header-log a{
-        text-decoration: none;
-        color: #fff;
-    }
-    .buttons input{
-        width: 186px;
-        height: 55px;
-        font-size: 24px;
-        color: #fff;
-        font-family: "å¾®è½¯é›…é»‘","Microsoft Yahei",Arial,Helvetica,sans-serif,"å®‹ä½“";
-    }
-    .button-1{
-        position: absolute;
-        left: 770px;
-        top: 480px;
-        background-color: #ffb401;
-        border: none;
-    }
-    .button-2{
-        position: absolute;
-        left: 990px;
-        top: 480px;
-        background: none;
-        border:1px solid #fff;
-    }
-    .content{
-        display: block;
-        margin: 22px 0 0 145px;
-    }
-    .content-1,
-    .content-2,
-    .content-3{
-        display: inline;
-    }
-    .content-2{
-        margin: 0 40px 0 -30px;
-    }
-
-
-
-    .footer-link{
-        display: block;
-        border-top: 1px solid #f1f1f1;
-        border-bottom: 1px solid #f1f1f1;
-        padding: 60px 0 60px 115px;
-        height: 147px;
-    }
-    .link-1,
-    .link-2,
-    .link-3,
-    .link-4,
-    .link-5{
-        float: left;
-        margin: 0 84px 0 0;
-    }
-    .link-5 input{
-        width: 68px;
-        height: 20px;
-        background-color: #3DB1FA;
-        border: none;
-        color: #fff;
-        margin: 0 0 0 10px;
-    }
-    .footer-link ul{
-        list-style: none;
-    }
-    .footer-link a{
-        text-decoration: none;
-        color: #515151;
-        font-size: 12px;
-        line-height: 27px;
-    }
-    .footer-link p{
-        font-size: 14px;
-        color: #515151;
-        font-weight: bold;
-    }
-    .link-5 li{
-        color: #515151;
-    }
-    .language{
-        background-image: url(images/footer-btn-icon.jpg);
-        background-repeat:  no-repeat;
-        background-position: 100% 80%;
-        border-top: 1px solid #b7b7b7;
-        border-bottom: 1px solid #b7b7b7;
-        padding: 10px;
-        font-size: 12px;
-        width: 60px;
-        color: #515151;
-    }
-
-    .footer{
-        display: block;
-        color: #999;
-        font-size: 12px;
-        width: 100%;
-        height: 80px;
-    }
-    .footer-logo{
-        display: inline;
-        float: left;
-        margin: 33px 0 0 20px;
-    }
-    .footer-info{
-        float: right;
-        padding: 0 20px 0 0;
-        padding: 30px 0 0 0; 
-    }
-    .footer-info img{
-        margin: 0 0 -5px 0;
-    }
-    .footer-info a{
-        text-decoration: none;
-        color: #999;
-        font-size: 12px;
-        margin: 0 0 0 10px;
-    }
-    .clear{
-        clear: both;
-    }
-    </style>
+    <link rel="stylesheet" href="魅族官网.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="meizu-header">
-                <div class="meizu-header-wrap">
-                    <div class="meizu-header-logo">
-                        <a href="http://www.meizu.com/index.html" class="meizu-header-logo-img"><img src="images/header-logo-img.jpg" alt="meizu-header-logo"></a>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="meizu-header-log">
-                        <a href="javascript:window.location.href = _login">登录</a> | <a href="javascript:window.location.href = _register">注册</a>
-                    </div>
-                    <ul class="meizu-header-link">
-                        <li>
-                                <a href="http://store.meizu.com/">在线商店</a>
-                            </li>
-                            <li>
-                               <a href="" class="meizu-header-link-product-a" onclick="return false;">产品</a>
-                            </li>
-                            <li>
-                                <a href="http://retail.meizu.com/">专卖店</a>
-                            </li>
-                            <li>
-                                <a href="http://flyme.meizu.com" target="_blank">Flyme</a>
-                            </li>
-                            <li>
-                                <a href="http://service.meizu.com/">服务</a>
-                            </li>
-                            <li>
-                                <a href="http://bbs.meizu.cn/" target="_blank">社区</a>
-                            </li>
-                    </ul>
+<body onload="autoStart()">
+    <div class="meizu-header">
+        <nav class="pre-nav" id="navigation">
+            <div class="meizu-header-wrap">
+                <div class="meizu-header-logo">
+                    <a href="http://www.meizu.com/index.html" class="meizu-header-logo-img"></a>
                     <div class="clear"></div>
                 </div>
-                <div class="clear"></div>    
+                <div class="meizu-header-log">
+                    <a href="javascript:window.location.href = _login">登录</a> | <a href="javascript:window.location.href = _register">注册</a>
+                </div>
+                <ul class="meizu-header-link">
+                    <li><a href="http://store.meizu.com/">在线商店</a></li>
+                    <li onmouseover="showPro()" id="products">
+                        <a href="javascript:;">产品</a>
+                    </li>
+                    <li>
+                        <a href="http://retail.meizu.com/">专卖店</a>
+                    </li>
+                    <li>
+                        <a href="http://flyme.meizu.com" target="_blank">Flyme</a>
+                    </li>
+                    <li>
+                        <a href="http://service.meizu.com/">服务</a>
+                    </li>
+                    <li>
+                        <a href="http://bbs.meizu.cn/" target="_blank">社区</a>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="meizu-header-products" id="meizu-header-products" onmouseout="hiddenPro()" onmouseover="showPro()">
+                <ul>
+                    <li><a class="mxpro" href="http://www.meizu.com/products/mx4profun.html"><div class="product-mx4pro" ></div><p>MX4 Pro</p></a></li>
+                    <li><a class="mxpro" href="http://www.meizu.com/products/mx4fun.html"><div class="product-mx4"></div><p>MX4</p></a></li>
+                    <li><a class="mxpro" href="http://www.meizu.com/products/mx3fun.html"><div class="product-mx3"></div><p>MX3</p></a></li>
+                    <div class="clear"></div>
+                </ul>
             </div>
         </nav>
-        <div class="buttons">
-            <div>
-                <a href="http://booking.meizu.com/"><input class="button-1" type="button" value="立即预约" /></a>
+        <div class="slide-wrap" id="slide-wrap">
+            <div class="slide-1" style="display:block">
+                <ul class="buttons">
+                    <li class="button-1">
+                        <a href="http://booking.meizu.com/"><input type="button" value="立即预约" /></a>
+                    </li>
+                    <li class="button-2">
+                        <a href="http://www.meizu.com/products/mx4fun.html"><input type="button" value="了解详情" /></a>
+                    </li>
+                </ul>
             </div>
-            <div>
-                <a href="http://www.meizu.com/products/mx4fun.html"><input class="button-2" type="button" value="了解详情" /></a>
+            <div class="slide-2" style="display:none">
+                <ul class="buttons">
+                    <li class="button-1">
+                        <a href="http://booking.meizu.com/"><input type="button" value="立即预约" /></a>
+                    </li>
+                    <li class="button-2">
+                        <a href="http://www.meizu.com/products/mx4fun.html"><input type="button" value="了解详情" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="slide-3" style="display:none">
+                <a class="button-3" href="http://bbs.meizu.cn/thread-5404377-1-1.html">了解更多</a>
             </div>
         </div>
-    </header>
+        <div class="bullet" id="bullet">
+            <a class="selected" href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+        </div> 
+    </div>
     <div class="content">
         <div class="content-1">
-        <a href="http://store.meizu.com/product/mx3.html"><img src="images/pre-hotspot-1.jpg" alt="MX3开学特惠" /></a>
+            <a href="http://store.meizu.com/product/mx3.html"><img src="images/pre-hotspot-1.jpg" alt="MX3开学特惠" /></a>
         </div>
         <div class="content-2">
             <a href="http://www.flyme.cn/"><img src="images/pre-hotspot-2.jpg" alt="Flyme4" /></a>
@@ -238,7 +88,7 @@
         </div>
     </div>
     <div class="footer-link">
-        <div class="link-1">
+        <div class="link-first">
             <ul>
                 <li><p>在线商店</p></li>
                 <li><a target="_blank" href="http://booking.meizu.com/">MX4</a></li>
@@ -247,7 +97,7 @@
                 <li><a target="_blank" href="http://store.meizu.com/product/meizu_mx3_colorful_cover.html">多彩后壳</a></li>
             </ul>
         </div>
-        <div class="link-2">
+        <div class="link-first">
             <ul>
                 <li><p>Flyme OS</p></li>
                 <li><a target="_blank" href="https://syncweb.meizu.com/">云服务</a></li>
@@ -256,7 +106,7 @@
                 <li><a target="_blank" href="http://findphoneweb.meizu.com/">查找手机</a></li>
             </ul>
         </div> 
-        <div class="link-3">
+        <div class="link-first">
             <ul>
                 <li><p>关于我们</p></li>
                 <li><a target="_blank" href="http://www.meizu.com/about.html">关于魅族</a></li>
@@ -265,37 +115,50 @@
                 <li><a target="_blank" href="http://www.meizu.com/legalStatement.html">法律声明</a></li>
             </ul>
         </div>
-        <div class="link-4">
+        <div class="link-first">
             <ul>
                 <li><p>关注我们</p></li>
                 <li><a target="_blank" href="http://weibo.com/meizumobile">新浪微博</a></li>
                 <li><a target="_blank" href="http://t.qq.com/meizu_tech">腾讯微博</a></li>
                 <li><a target="_blank" href="http://user.qzone.qq.com/2762957059">QQ空间</a></li>
-                <li><a>官方微信</a></li>
+                <li class="meizu-footer-wechat"><a href="javascript:;">官方微信<img src="images/weixin_1.png" alt="weixin_1" ></a></li>
             </ul>
         </div>
-        <div class="link-5">
+        <div class="link-last">
             <ul>
                 <li><p>客服热线</p></li>
                 <li>400-788-3333<a href="http://kf2.meizu.com/webCompany.php?arg=meizu&style=1"><input type="button" value="在线客服" /></a></li>
-                <div class="language">简体中文</div>
+                <li class="language">
+                    简体中文
+                    <div class="language-wrap">
+                        <p>国家或者地区</p>
+                        <ul>
+                            <li><div class="language-1"></div><a href="javascript:;">繁體中文</a></li>
+                            <li><div class="language-2"></div><a href="javascript:;">台灣繁體</a></li>
+                            <li><div class="language-3"></div><a href="javascript:;">English</a></li>
+                            <li><div class="language-4"></div><a href="javascript:;">Deutsh</a></li>
+                            <li><div class="language-5"></div><a href="javascript:;">Русский</a></li>
+                            <li><div class="language-6"></div><a href="javascript:;">עברית</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
         <div class="clear"></div>   
     </div>
-
     <div class="footer">
         <div class="footer-logo">
-             <a href="header"><img src="images/footer-logo.jpg" alt="meizu-footer-logo" /></a>
+           <a href="header"><img src="images/footer-logo.jpg" alt="meizu-footer-logo" /></a>
         </div>
         <div class="footer-info">
-            ©2014 Meizu Telecom Equipment Co., Ltd. All rights reserved. <a target="_blank" href="http://www.miitbeian.gov.cn/" hidefocus="true">备案号：粤ICP备13003602号-2</a>
-            <a target="_blank" href="http://www2.res.meizu.com/zh_cn/images/common/icp2.jpg">经营许可证编号：粤B2-20130198</a>
-            <a target="_blank" href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" >营业执照</a>
-            <a target="_blank" href="http://210.76.65.188/"><img src="images/footer-copy-1.png" /></a>
-            <a target="_blank" href="http://210.76.65.188/webrecord/innernet/Welcome.jsp?bano=4404013010531"><img src="images/footer-copy-2.png" /></a>
+        ©2014 Meizu Telecom Equipment Co., Ltd. All rights reserved. <a target="_blank" href="http://www.miitbeian.gov.cn/" hidefocus="true">备案号：粤ICP备13003602号-2</a>
+        <a target="_blank" href="http://www2.res.meizu.com/zh_cn/images/common/icp2.jpg">经营许可证编号：粤B2-20130198</a>
+        <a target="_blank" href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" >营业执照</a>
+        <a target="_blank" href="http://210.76.65.188/"><img src="images/footer-copy-1.png" /></a>
+        <a target="_blank" href="http://210.76.65.188/webrecord/innernet/Welcome.jsp?bano=4404013010531"><img src="images/footer-copy-2.png" /></a>
         </div>
         <div class="clear"></div>
     </div>
+<script src="meizu.js"></script>
 </body>
 </html>
